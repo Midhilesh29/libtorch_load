@@ -1,5 +1,10 @@
 #include <torch/script.h> // One-stop header.
 
+#include <fstream>
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include "readImages.h"
+
 #include <iostream>
 #include <memory>
 
